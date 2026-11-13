@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="880" height="270" role="img" aria-label="Nadir Sayed. Market finance student, M1 Financial Markets, ESCE Paris. Market risk, product control and P&amp;L, middle office, ALM and treasury. Available for a summer internship, June to August 2027.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1424"/>
+      <stop offset="1" stop-color="#0f1b2e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="878" height="268" rx="14"/></clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .chip { fill: #111d31; stroke: #2a3b57; }
+      .chipt { fill: #c7d4e8; font-size: 11px; letter-spacing: 1px; font-weight: 600; }
+
+      @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+      @keyframes draw { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+      @keyframes pulse { 0%, 100% { fill-opacity: 1; } 50% { fill-opacity: 0.3; } }
+      @keyframes tail { 0%, 100% { fill: #f87171; } 50% { fill: #fecaca; } }
+      @keyframes sweep { 0% { transform: translateX(-260px); } 45%, 100% { transform: translateX(900px); } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+      .rise { opacity: 0; animation: rise 0.7s cubic-bezier(.2,.7,.2,1) forwards; }
+      .fade { opacity: 0; animation: fade 0.8s ease forwards; }
+      .bar { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0);
+              animation: grow 0.7s cubic-bezier(.2,.8,.2,1) forwards; }
+      .bar.tail { animation: grow 0.7s cubic-bezier(.2,.8,.2,1) forwards, tail 2.6s ease-in-out 3s infinite; }
+      .var { stroke-dasharray: 3 3; }
+      .varmask { stroke-dasharray: 90; stroke-dashoffset: 90; animation: draw 0.9s ease 2.1s forwards; }
+      .dot { animation: pulse 2.4s ease-in-out infinite; }
+      .sheen { animation: sweep 7s ease-in-out 2.5s infinite; transform: translateX(-260px); }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .rise, .fade, .bar, .bar.tail, .varmask, .dot, .sheen, .cursor { animation: none; opacity: 1; transform: none; stroke-dashoffset: 0; }
+        .sheen { display: none; }
+      }
+    </style>
+    <mask id="varreveal" maskUnits="userSpaceOnUse" x="670" y="80" width="26" height="110">
+      <line class="varmask" x1="683" y1="180" x2="683" y2="92" stroke="#fff" stroke-width="4"/>
+    </mask>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="879" height="269" rx="14" fill="url(#bg)" stroke="#22314a"/>
+  <g clip-path="url(#card)"><rect class="sheen" x="0" y="0" width="260" height="270" fill="url(#sheen)"/></g>
+
+  <!-- top strip -->
+  <g class="fade" style="animation-delay:0.1s">
+    <text x="32" y="38" class="mono" font-size="11" letter-spacing="2" fill="#7f93b2">PARIS · MARKET FINANCE</text>
+    <text x="848" y="38" text-anchor="end" class="mono" font-size="11" letter-spacing="1.5" fill="#34d399"><tspan class="dot">●</tspan> SUMMER INTERNSHIP · JUN–AUG 2027</text>
+    <line x1="32" y1="52" x2="848" y2="52" stroke="#1d2a40"/>
+  </g>
+
+  <!-- name -->
+  <text class="rise sans" style="animation-delay:0.25s" x="32" y="112" font-size="46" font-weight="700" fill="#f4f7fb" letter-spacing="0.5">Nadir Sayed<tspan class="cursor" fill="#5eead4" dx="4">_</tspan></text>
+  <text class="rise sans" style="animation-delay:0.4s" x="32" y="142" font-size="16" fill="#9fb0c9">M1 Financial Markets · ESCE Paris</text>
+  <text class="rise sans" style="animation-delay:0.5s" x="32" y="166" font-size="16" fill="#9fb0c9">Pricing, P&amp;L explain and risk, built and tested in Python</text>
+
+  <!-- chips -->
+  <g class="mono">
+    <g class="rise" style="animation-delay:0.70s">
+      <rect class="chip" x="32" y="204" width="112" height="28" rx="14"/>
+      <text class="chipt" x="88" y="222" text-anchor="middle">MARKET RISK</text>
+    </g>
+    <g class="rise" style="animation-delay:0.85s">
+      <rect class="chip" x="152" y="204" width="190" height="28" rx="14"/>
+      <text class="chipt" x="247" y="222" text-anchor="middle">PRODUCT CONTROL · P&amp;L</text>
+    </g>
+    <g class="rise" style="animation-delay:1.00s">
+      <rect class="chip" x="350" y="204" width="128" height="28" rx="14"/>
+      <text class="chipt" x="414" y="222" text-anchor="middle">MIDDLE OFFICE</text>
+    </g>
+    <g class="rise" style="animation-delay:1.15s">
+      <rect class="chip" x="486" y="204" width="136" height="28" rx="14"/>
+      <text class="chipt" x="554" y="222" text-anchor="middle">ALM · TREASURY</text>
+    </g>
+  </g>
+
+  <!-- schematic P&L distribution (illustrative shape, not data) -->
+  <g>
+    <rect class="bar tail" style="animation-delay:0.900s" x="652" y="177" width="6" height="3" rx="1" fill="#f87171"/>
+    <rect class="bar tail" style="animation-delay:0.945s" x="660" y="175" width="6" height="5" rx="1" fill="#f87171"/>
+    <rect class="bar tail" style="animation-delay:0.990s" x="668" y="176" width="6" height="4" rx="1" fill="#f87171"/>
+    <rect class="bar tail" style="animation-delay:1.035s" x="676" y="172" width="6" height="8" rx="1" fill="#f87171"/>
+    <rect class="bar" style="animation-delay:1.080s" x="684" y="168" width="6" height="12" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.125s" x="692" y="170" width="6" height="10" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.170s" x="700" y="162" width="6" height="18" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.215s" x="708" y="153" width="6" height="27" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.260s" x="716" y="142" width="6" height="38" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.305s" x="724" y="128" width="6" height="52" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.350s" x="732" y="112" width="6" height="68" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.395s" x="740" y="96" width="6" height="84" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.440s" x="748" y="84" width="6" height="96" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.485s" x="756" y="78" width="6" height="102" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.530s" x="764" y="86" width="6" height="94" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.575s" x="772" y="100" width="6" height="80" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.620s" x="780" y="118" width="6" height="62" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.665s" x="788" y="135" width="6" height="45" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.710s" x="796" y="150" width="6" height="30" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.755s" x="804" y="161" width="6" height="19" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.800s" x="812" y="169" width="6" height="11" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.845s" x="820" y="174" width="6" height="6" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.890s" x="828" y="177" width="6" height="3" rx="1" fill="url(#bar)"/>
+    <rect class="bar" style="animation-delay:1.935s" x="836" y="178" width="6" height="2" rx="1" fill="url(#bar)"/>
+    <line class="fade" style="animation-delay:0.8s" x1="648" y1="180.5" x2="848" y2="180.5" stroke="#2a3b57"/>
+    <line class="var" mask="url(#varreveal)" x1="683" y1="92" x2="683" y2="180" stroke="#f87171"/>
+    <text class="fade mono" style="animation-delay:2.8s" x="679" y="88" text-anchor="end" font-size="10" fill="#f87171" letter-spacing="0.5">VaR 99%</text>
+    <text class="fade mono" style="animation-delay:1.2s" x="848" y="222" text-anchor="end" font-size="10" fill="#5f7392" letter-spacing="0.5">1-day P&amp;L · schematic</text>
+  </g>
+</svg>
