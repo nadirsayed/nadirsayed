@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Nadir Sayed. Market finance student, M1 Financial Markets, ESCE Paris. Available for a summer internship, June to August 2027.">
+  <img src="header.svg" width="100%" alt="Nadir Sayed. Market finance student, M1 Financial Markets, ESCE Paris. Available for a summer internship, June to August 2027.">
 </p>
 
 I study market finance and I like numbers that reconcile. Two finance internships taught me
