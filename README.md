@@ -9,7 +9,7 @@ assumption.
 
 ## Featured project
 
-### [minibook](https://github.com/nadirsayed/minibook): a derivatives book, risk-managed every business day
+### [minibook](https://github.com/nadirsayed/minibook): a derivatives book, valued and risk-reported every business day
 
 [![CI](https://github.com/nadirsayed/minibook/actions/workflows/ci.yml/badge.svg)](https://github.com/nadirsayed/minibook/actions/workflows/ci.yml)
 [![Daily report](https://github.com/nadirsayed/minibook/actions/workflows/daily.yml/badge.svg)](https://github.com/nadirsayed/minibook/actions/workflows/daily.yml)
@@ -36,7 +36,7 @@ assumption.
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/nadirsayed/minibook/tree/main/reports">
-        <img src="https://raw.githubusercontent.com/nadirsayed/minibook/main/docs/img/report_2026-11-11_p4.png" alt="Page 4 of the 11 November 2026 report: VaR and ES histogram, history and worst scenarios">
+        <img src="https://raw.githubusercontent.com/nadirsayed/minibook/main/docs/img/report_page4.png" alt="Page 4 of the 11 November 2026 report: VaR and ES histogram, history and worst scenarios">
       </a>
     </td>
   </tr>
